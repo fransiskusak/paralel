@@ -18,7 +18,7 @@ public class AcceptanceTestSuite extends SerenityStories {
         //storyPaths.add("stories/Account/Positive/MendaftarAkunElokValid.story");
 
 
-        storyPaths.add("stories/Account/Positive/Login.story");
+//        storyPaths.add("stories/Account/Positive/Login.story");
         storyPaths.add("stories/Account/Positive/Logout.story");
         //storyPaths.add("stories/Course/Negative/MengenrollDenganEnrollmentKeyInvalid.story");
 //        storyPaths.add("stories/Account/Negative/LoginInvalid.story");
