@@ -1,19 +1,26 @@
 package com.mycompany.elok.steps;
 
 import com.mycompany.elok.steps.serenity.EndUserSteps;
+import net.serenitybdd.jbehave.SerenityJBehaveTestRunner;
 import net.thucydides.core.annotations.Steps;
 import org.jbehave.core.annotations.Given;
 import org.jbehave.core.annotations.Then;
 import org.jbehave.core.annotations.When;
+import org.junit.Test;
+import org.junit.runner.RunWith;
 
 /**
  * Created by Fransiskus A K on 19/03/2019.
  */
+//////////////////////////////////////////Konfig dari github//////////////////
+
+@RunWith(SerenityJBehaveTestRunner.class)
 public class LoginScenario {
+
     @Steps
     EndUserSteps endUser;
 
-
+    @Test
     @Given("Pengguna berada pada Homepage e-LOK")
     public void penggunaBeradaPadaHomepage() { endUser.beradaDiHomepage();}
 
