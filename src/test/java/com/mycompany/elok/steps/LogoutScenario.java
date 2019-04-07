@@ -26,6 +26,4 @@ public class LogoutScenario {
 
     @Then("Pengguna akan melihat deskripsi '$isiTentangElok'")
     public void penggunaLihatTulisanDiHomepage(String isiTentangElok){endUser.akanLihatTulisan(isiTentangElok);}
-
-
 }
