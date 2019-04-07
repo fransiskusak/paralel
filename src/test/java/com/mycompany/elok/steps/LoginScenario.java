@@ -2,6 +2,7 @@ package com.mycompany.elok.steps;
 
 import com.mycompany.elok.steps.serenity.EndUserSteps;
 import net.serenitybdd.jbehave.SerenityJBehaveTestRunner;
+import net.serenitybdd.jbehave.runners.SerenityReportingRunner;
 import net.thucydides.core.annotations.Steps;
 import org.jbehave.core.annotations.Given;
 import org.jbehave.core.annotations.Then;
@@ -14,7 +15,7 @@ import org.junit.runner.RunWith;
  */
 //////////////////////////////////////////Konfig dari github//////////////////
 
-@RunWith(SerenityJBehaveTestRunner.class)
+@RunWith(SerenityReportingRunner.class)
 public class LoginScenario {
 
     @Steps
